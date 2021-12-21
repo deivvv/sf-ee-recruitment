@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the interview associated to this feedback.</inlineHelpText>
+    <label>Interview</label>
+    <referenceTo>Interview__c</referenceTo>
+    <relationshipLabel>Interview Feedback</relationshipLabel>
+    <relationshipName>Interview_Feedback</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>true</reparentableMasterDetail>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

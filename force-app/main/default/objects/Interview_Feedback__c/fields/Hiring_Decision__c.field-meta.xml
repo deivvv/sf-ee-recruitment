@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hiring_Decision__c</fullName>
+    <externalId>false</externalId>
+    <label>Hiring Decision</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hire</fullName>
+                <default>false</default>
+                <label>Hire</label>
+            </value>
+            <value>
+                <fullName>No Hire</fullName>
+                <default>false</default>
+                <label>No Hire</label>
+            </value>
+            <value>
+                <fullName>Consider for Different Position</fullName>
+                <default>false</default>
+                <label>Consider for Different Position</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

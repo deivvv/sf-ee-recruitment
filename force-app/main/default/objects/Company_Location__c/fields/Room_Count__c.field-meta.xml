@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Room_Count__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Total number of rooms at this location.</inlineHelpText>
+    <label>Room Count</label>
+    <summaryForeignKey>Location_Room__c.Company_Location__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

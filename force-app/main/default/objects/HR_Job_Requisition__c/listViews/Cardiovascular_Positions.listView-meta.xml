@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cardiovascular_Positions</fullName>
+    <columns>NAME</columns>
+    <columns>HR_Location__c</columns>
+    <columns>HR_Type__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>HR_Functional_Area__c</field>
+        <operation>equals</operation>
+        <value>Cardiovascular</value>
+    </filters>
+    <label>Cardiovascular Positions</label>
+</ListView>
