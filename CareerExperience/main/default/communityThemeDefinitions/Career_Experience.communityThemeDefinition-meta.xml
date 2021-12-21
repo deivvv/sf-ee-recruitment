@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customThemeLayoutType>
+        <label>rtIAYNytig2PL4PMDvuAs5Ryr0Lobh</label>
+    </customThemeLayoutType>
+    <defaultBrandingSet>Career_Experience</defaultBrandingSet>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Career_Experience</masterLabel>
+    <publisher>Salesforce</publisher>
+    <themeSetting>
+        <themeLayout>Career_Experience_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_themeLayout_Home</themeLayout>
+        <themeLayoutType>Home</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_themeLayout_ServiceNotAvailable</themeLayout>
+        <themeLayoutType>ServiceNotAvailable</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <customThemeLayoutType>rtIAYNytig2PL4PMDvuAs5Ryr0Lobh</customThemeLayoutType>
+        <themeLayout>Career_Experience_themeLayout_Login_Wide</themeLayout>
+    </themeSetting>
+</CommunityThemeDefinition>

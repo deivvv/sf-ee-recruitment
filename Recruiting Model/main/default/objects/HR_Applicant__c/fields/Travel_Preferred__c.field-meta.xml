@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Travel_Preferred__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the desired travel.</inlineHelpText>
+    <label>Travel Preferred</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Non-Travel</fullName>
+                <default>false</default>
+                <label>Non-Travel</label>
+            </value>
+            <value>
+                <fullName>Some Travel</fullName>
+                <default>false</default>
+                <label>Some Travel</label>
+            </value>
+            <value>
+                <fullName>Domestic Travel</fullName>
+                <default>false</default>
+                <label>Domestic Travel</label>
+            </value>
+            <value>
+                <fullName>International Travel</fullName>
+                <default>false</default>
+                <label>International Travel</label>
+            </value>
+            <value>
+                <fullName>No Limits</fullName>
+                <default>false</default>
+                <label>No Limits</label>
+            </value>
+            <value>
+                <fullName>Travel Frequently</fullName>
+                <default>false</default>
+                <label>Travel Frequently</label>
+            </value>
+            <value>
+                <fullName>Travel Rarely</fullName>
+                <default>false</default>
+                <label>Travel Rarely</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Behavioral</fullName>
+        <default>false</default>
+        <label>Behavioral</label>
+    </customValue>
+    <customValue>
+        <fullName>Case</fullName>
+        <default>false</default>
+        <label>Case</label>
+    </customValue>
+    <customValue>
+        <fullName>Group</fullName>
+        <default>false</default>
+        <label>Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Phone/Video</fullName>
+        <default>false</default>
+        <label>Phone/Video</label>
+    </customValue>
+    <customValue>
+        <fullName>Puzzle</fullName>
+        <default>false</default>
+        <label>Puzzle</label>
+    </customValue>
+    <customValue>
+        <fullName>Technical</fullName>
+        <default>false</default>
+        <label>Technical</label>
+    </customValue>
+    <description>Different Types of Interviews</description>
+    <masterLabel>Interview Types</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

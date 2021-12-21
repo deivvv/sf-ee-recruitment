@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CommunityThemeDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <bundlesInfo>
+        <description>Career theme</description>
+        <order>1</order>
+        <title>Careers</title>
+        <type>Highlight</type>
+    </bundlesInfo>
+    <bundlesInfo>
+        <image>siteAsset_08864b247dd94261af01bdb795eb2475</image>
+        <order>1</order>
+        <title>siteAsset_08864b247dd94261af01bdb795eb2475</title>
+        <type>PreviewImage</type>
+    </bundlesInfo>
+    <customThemeLayoutType>
+        <label>rtIAYNytig2PL4PMDvuAs5Ryr0Lobh</label>
+    </customThemeLayoutType>
+    <defaultBrandingSet>Career_Experience_Theme</defaultBrandingSet>
+    <description>Career Experience</description>
+    <enableExtendedCleanUpOnDelete>true</enableExtendedCleanUpOnDelete>
+    <masterLabel>Career Experience Theme</masterLabel>
+    <publisher>Salesforce</publisher>
+    <themeRouteOverride>
+        <pageAttributes>{&quot;PageName&quot;:&quot;Home&quot;}</pageAttributes>
+        <pageType>comm__standardPage</pageType>
+        <themeLayoutType>Home</themeLayoutType>
+    </themeRouteOverride>
+    <themeSetting>
+        <themeLayout>Career_Experience_Theme_themeLayout_Login</themeLayout>
+        <themeLayoutType>Login</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_Theme_themeLayout_Home</themeLayout>
+        <themeLayoutType>Home</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_Theme_themeLayout_Default</themeLayout>
+        <themeLayoutType>Inner</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <themeLayout>Career_Experience_Theme_themeLayout_ServiceNotAvailable</themeLayout>
+        <themeLayoutType>ServiceNotAvailable</themeLayoutType>
+    </themeSetting>
+    <themeSetting>
+        <customThemeLayoutType>rtIAYNytig2PL4PMDvuAs5Ryr0Lobh</customThemeLayoutType>
+        <themeLayout>Career_Experience_Theme_themeLayout_Login_Wide</themeLayout>
+    </themeSetting>
+</CommunityThemeDefinition>

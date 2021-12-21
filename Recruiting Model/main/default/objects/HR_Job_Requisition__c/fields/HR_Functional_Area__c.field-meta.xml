@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HR_Functional_Area__c</fullName>
+    <externalId>false</externalId>
+    <label>Functional Area</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Human Resources</fullName>
+                <default>false</default>
+                <label>Human Resources</label>
+            </value>
+            <value>
+                <fullName>Information Technology</fullName>
+                <default>false</default>
+                <label>Information Technology</label>
+            </value>
+            <value>
+                <fullName>Software Engineering</fullName>
+                <default>false</default>
+                <label>Software Engineering</label>
+            </value>
+            <value>
+                <fullName>Product Management</fullName>
+                <default>false</default>
+                <label>Product Management</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Sales Department</fullName>
+                <default>false</default>
+                <label>Sales Department</label>
+            </value>
+            <value>
+                <fullName>Physicians &amp; Providers</fullName>
+                <default>false</default>
+                <label>Physicians &amp; Providers</label>
+            </value>
+            <value>
+                <fullName>Nursing Direct Care</fullName>
+                <default>false</default>
+                <label>Nursing Direct Care</label>
+            </value>
+            <value>
+                <fullName>Nursing Support</fullName>
+                <default>false</default>
+                <label>Nursing Support</label>
+            </value>
+            <value>
+                <fullName>Coding &amp; Compliance</fullName>
+                <default>false</default>
+                <label>Coding &amp; Compliance</label>
+            </value>
+            <value>
+                <fullName>Cardiovascular</fullName>
+                <default>false</default>
+                <label>Cardiovascular</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
