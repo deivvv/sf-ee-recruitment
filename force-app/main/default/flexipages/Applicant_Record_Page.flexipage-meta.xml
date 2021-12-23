@@ -128,10 +128,6 @@
                     <value>5</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
-                    <name>predDef</name>
-                    <value>0OR5e000000GuJBGAK</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
                     <name>recommendationThreshold</name>
                     <value>5</value>
                 </componentInstanceProperties>
@@ -163,52 +159,6 @@
         <type>Facet</type>
     </flexiPageRegions>
     <flexiPageRegions>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
-                    <name>hideEinstein</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hideWhenEmpty</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>launchOption</name>
-                    <value>launchModal</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>maxDisplayPropositions</name>
-                    <value>1</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showDescription</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showImage</name>
-                    <value>true</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showRejectAction</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showTitle</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>strategyName</name>
-                    <value>New_Hire_Wizard</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>widgetTitle</name>
-                    <value>Next Best Action</value>
-                </componentInstanceProperties>
-                <componentName>runtime_communities_nba:builderNbaWidget</componentName>
-                <identifier>runtime_communities_nba_builderNbaWidget</identifier>
-            </componentInstance>
-        </itemInstances>
         <name>Facet-2683f254-8a55-41af-a9c6-2e50b9afbbea</name>
         <type>Facet</type>
     </flexiPageRegions>

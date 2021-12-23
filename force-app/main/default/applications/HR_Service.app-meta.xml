@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <label>HR Service</label>
+    <navType>Console</navType>
+    <tabs>standard-home</tabs>
+    <tabs>HR_Applicant__c</tabs>
+    <tabs>HR_Job_Requisition__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>HR_Service_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>HR_Applicant__c</tab>
+        </mappings>
+        <mappings>
+            <tab>HR_Job_Requisition__c</tab>
+        </mappings>
+        <mappings>
+            <tab>standard-home</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>

@@ -8,7 +8,7 @@ sfdx force:source:push
 sfdx shane:user:password:set -g User -l User -p salesforce1
 
 # Set PermSets
-#sfdx force:user:permset:assign -n Recruiter
+sfdx force:user:permset:assign -n Recruiter
 
 # Open the org.
 sfdx force:org:open
