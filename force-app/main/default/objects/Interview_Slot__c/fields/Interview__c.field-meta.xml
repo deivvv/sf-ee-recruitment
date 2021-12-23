@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Interview__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the interview</inlineHelpText>
+    <label>Interview</label>
+    <referenceTo>Interview__c</referenceTo>
+    <relationshipLabel>Interview Slots</relationshipLabel>
+    <relationshipName>Interview_Slots</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location_Room__c</fullName>
+    <deleteConstraint>Restrict</deleteConstraint>
+    <externalId>false</externalId>
+    <inlineHelpText>Please select the room for this time slot</inlineHelpText>
+    <label>Location Room</label>
+    <referenceTo>Location_Room__c</referenceTo>
+    <relationshipLabel>Room Slots</relationshipLabel>
+    <relationshipName>Room_Slots</relationshipName>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

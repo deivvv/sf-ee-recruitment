@@ -1,7 +1,7 @@
 {
-  "orgName": "chad.evans company",
+  "orgName": "Employee Experience Recruitment",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi"],
+  "features": ["DevelopmentWave", "EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true

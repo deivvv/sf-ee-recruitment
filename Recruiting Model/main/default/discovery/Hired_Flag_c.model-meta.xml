@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiscoveryAIModel xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <content xsi:nil="true"/>
+    <algorithmType>Glm</algorithmType>
+    <classificationThreshold>0.31353387408913214</classificationThreshold>
+    <label>Hired_Flag__c</label>
+    <modelFields>
+        <label>Manager Experience</label>
+        <name>HR_Manager_Experience__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Certifications Earned</label>
+        <name>Certifications_Earned__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>US Citizen</label>
+        <name>HR_US_Citizen__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Current Title</label>
+        <name>HR_Current_Title__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Gender</label>
+        <name>Gender__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Visa Required</label>
+        <name>HR_Visa_Required__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Mailing State</label>
+        <name>HR_Mailing_State__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Applicant Source</label>
+        <name>Applicant_Source__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Education</label>
+        <name>HR_Education__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Travel Preferred</label>
+        <name>Travel_Preferred__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Current Employer</label>
+        <name>HR_Current_Employer__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelFields>
+        <label>Hired Flag</label>
+        <name>Hired_Flag__c</name>
+        <type>Text</type>
+    </modelFields>
+    <modelRuntimeType>Discovery</modelRuntimeType>
+    <predictedField>Hired_Flag__c</predictedField>
+    <predictionType>Classification</predictionType>
+    <sourceType>Discovery</sourceType>
+    <status>Enabled</status>
+    <trainingMetrics>{&quot;r2&quot;:0.5872852158863695,&quot;nobs&quot;:1115,&quot;nullDeviance&quot;:595.9197668354718,&quot;residualDegreesOfFreedom&quot;:-2,&quot;type&quot;:&quot;BinomialGLM&quot;,&quot;gini&quot;:0.9696896217264792,&quot;meanPerClassError&quot;:0.11344741582374948,&quot;logloss&quot;:0.10444419823340506,&quot;auc&quot;:0.9848448108632396,&quot;residualDeviance&quot;:232.91056206049325,&quot;confusionMatrices&quot;:{&quot;thresholds&quot;:[0.31353387408913214],&quot;tns&quot;:[1018],&quot;tps&quot;:[66],&quot;totalPositives&quot;:79,&quot;totalNegatives&quot;:1036},&quot;rmse&quot;:0.16955832646028265,&quot;aic&quot;:2466.9105620604932,&quot;nullDegreesOfFreedom&quot;:1114,&quot;mse&quot;:0.028750026072011787}</trainingMetrics>
+</DiscoveryAIModel>
